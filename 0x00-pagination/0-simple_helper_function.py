@@ -4,6 +4,6 @@
 
 def index_range(page, page_size):
     """returns turple of size two containing start and end indexes"""
-    start = (page - 1) * page_size
-    end = page * page_size
-    return (start, end)
+    start_index = (page - 1) * page_size
+    end_index = page * page_size
+    return (start_index, end_index)
